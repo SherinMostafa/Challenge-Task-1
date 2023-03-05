@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: url(Material/blue_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+
+    height: 770px;
+    padding: 50px 60px 50px 90px;
+
+    overflow-x: hidden;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .Left_Nav {
+    display: flex;
+    align-items: center;
+}
+
+header .Left_Nav a {
+    margin: 0px 20px;
+    padding-bottom: 3px;
+
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+header .Left_Nav .Active {
+    border-bottom: 3px solid #96318D;
+}
+
+header .Right_Nav {
+    padding: 10px 30px;
+
+    position: relative;
+}
+
+header .Right_Nav img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .Right_Nav a {
+    color: rgba(0, 0, 0);
+    font-size: 14px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-10%, 20%);
+}
+
+header main {
+    margin: 120px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header main .Left_Main {
+    width: 530px;
+    margin: 30px 0px 30px 30px;
+}
+
+header main .Left_Main h1 {
+    color: #212529;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+header main .Left_Main span {
+    color: #96318D;
+}
+
+header main .Left_Main p {
+    color: #212529;
+    font-size: 25px;
+    font-weight: lighter;
+
+    margin-bottom: 50px;
+}
+
+header main .Right_Main {
+    position: relative;
+}
+
+header main .Right_Main img {
+    position: absolute;
+}
+
+header main .Right_Main .img1 {
+    top: -305px;
+    right: -100px;
+}
+
+header main .Right_Main .img2 {
+    top: -275px;
+    right: 160px;
+}
+
+header main .Right_Main .img3 {
+    top: 100px;
+    right: 90px;
+}
+
+header main .Right_Main .img4 {
+    top: 185px;
+    right: 245px;
+}
+
+article {
+    height: 1400px;
+    margin-left: 26px;
+
+    background-image: url(Material/second_section_.png);
+    background-repeat: no-repeat;
+    background-size: 850px 530px;
+    background-position-y: top;
+    background-position-x: center;
+
+    position: relative;
+}
+
+article div {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.55);
+    text-align: center;
+}
+
+article div h2 {
+    font-weight: 640;
+    margin: 0;
+}
+
+article div p {
+    font-size: 20px;
+    margin: 5px;
+}
+
+article .sec1 {
+    top: 70px;
+    left: 50px;
+}
+
+article .sec2 {
+    top: 235px;
+    left: 440px;
+}
+
+article .sec3 {
+    top: 510px;
+    right: 165px;
+}
+
+article .sec4 {
+    background-image: url(Material/why_kudzoka_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 330px;
+    height: 500px;
+
+    top: 530px;
+    left: 90px;
+}
+
+article .sec4 div {
+    position: relative;
+
+    text-align: left;
+}
+
+article .sec4 div h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: 360;
+
+    position: absolute;
+    top: 85px;
+    left: 70px;
+}
+
+article .sec4 div span {
+    font-size: 40px;
+}
+
+article .sec5 {
+    bottom: 150px;
+    left: 140px;
+    
+    display: flex;
+    align-items: flex-end;
+}
+
+article .sec5 img {
+    margin: 0px 40px;
+}
+
+article .sec5 i {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: bold;
+
+    margin: 20px;
+    padding: 10px;
+
+    border-radius: 50%;
+}
+
+article .sec5 i:hover {
+    transition: color 2s, background 1.5s;
+
+    color: white;
+    background-color: #96318e8f;
+}
+
+article .sec6 {
+    bottom: 25px;
+    left: 570px;
+
+    font-weight: bold;
+}
+
+article .sec6 h2 {
+    font-size: 20px;
+}
+
+article .sec6 p {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+}
+
+footer {
+    height: 85vh;
+    width: 100%;
+
+    position: relative;
+    overflow: hidden;
+}
+
+footer .f_img {
+    width: 1600px;
+    position: absolute;
+    left: -140px;
+}
+
+footer section {
+    position: absolute;
+    left: 70px;
+
+    width: 100%;
+
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+footer section {
+    position: absolute;
+    bottom: 16px;
+
+}
+
+footer section div {
+    display: flex;
+    align-items: center;
+
+    margin: 10px 0px 0px;
+}
+
+footer section .First a {
+    width: 120px;
+    height: 40px;
+
+    margin-right: 20px;
+    padding: 5px;
+
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    top: 0px;
+
+    border-radius: 10px;
+}
+
+footer section .First img {
+    width: 18px;
+    height: 24px;
+    margin: 0px 15px;
+}
+
+footer section .First p {
+    color: #212529;
+    font-size: 8px;
+    font-weight: 500;
+}
+
+footer section .First span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+footer .s_img {
+    width: 650px;
+
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+footer section .Second a {
+    height: 45px;
+}
+
+footer section .Second img {
+    height: 25px;
+    margin: 15px 20px 15px 0px;
+}
+
+footer section .Third a {
+    margin-right: 50px;
+    margin-top: 15px;
+
+    color: white;
+    font-size: 15px;
+}
